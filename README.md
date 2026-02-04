@@ -4,3 +4,16 @@
 - 6702041511136
 - Nattanicha Intam
 - s6702041511136@email.kmutnb.ac.th
+
+
+## Enviroment
+```sh
+cp env.simple.env
+```
+
+## Running services
+### Database
+```sh
+docker compose -f db.yaml up # monitoring
+docker compose -f db.yaml up # background
+```
