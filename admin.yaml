@@ -1,6 +1,6 @@
 services:
   s3admin:
-    image: postgres:latest
+    image: dpage/pgadmin4
     container_name: 68-s3-admin
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
